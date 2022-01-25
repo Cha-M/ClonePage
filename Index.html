@@ -1,6 +1,6 @@
 <head>
     <title>testing123</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,9 +10,27 @@
     
 <body>
     <header>
-        <div class = "headerBar">
-            <div class = "headerBarTitle">
-                <div class = "headerBarTitleText" id = "newLeftTitle"><span style="color:#e0d0a6">New <span style="color:#87a8e2">Left </span><span style="color:#6cca93">Review</span></div>
+        <!-- <script>
+            function blah()
+            {
+                let titleID = document.getElementById("newLeftTitle");
+                let titleTextID = document.getElementById("newLeftTitleText");
+                let fullHeaderID = document.getElementById("HeadAll");
+                // titleID.innerHTML = "Hello Javascript";
+                titleID.className = "shrink";
+                titleTextID.className = "shrink";
+                fullHeaderID.classList.remove("headerBar150px")
+                fullHeaderID.className = "headerBar48px";
+                
+                document.getElementById("testButton").disabled = "true";
+                // alert("Hi");
+            }
+        </script>
+            <button type="button" id="testButton" onclick=blah()>Test the Button</button> -->
+
+        <div class = "headerBar150px" id = "headAll">
+            <div class = "headerBarTitle" id = "newLeftTitle">
+                <div class = "headerBarTitleText" id = "newLeftTitleText"><span style="color:#e0d0a6">New <span style="color:#87a8e2">Left </span><span style="color:#6cca93">Review</span></div>
             </div>
                 <div class = "headerBarMenu">
                     <div class= "headerBarMenuInner">

@@ -18,18 +18,33 @@ body {
 } */
  
 
-.headerBar {
+.headerBar150px {
     font-family: 'Inter', sans-serif;
     color: white;
     width: 100vw;
-    height: 150px;
     display: flex;
     flex-direction: column;
     background: #ce0e2e;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    height: 150px;
+
+
 }
+
+.headerBar48px {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: #ce0e2e;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+
+}
+
 
 .headerBarTitle {
     /* font-family: 'Inter', sans-serif; */
@@ -57,6 +72,19 @@ body {
     text-transform: uppercase;
 }
 
+.hide {
+    opacity:0;
+}
+.show {
+    opacity:1;
+
+}
+
+.shrink {
+    height: 0vh;
+    flex: 0;
+}
+
 .headerBarMenu {
     /* font-family: 'Inter', sans-serif; */
     /* flex-direction: row; */
@@ -68,6 +96,7 @@ body {
     max-height: 48px;
     font-size: 1.125rem;
     text-transform: uppercase;
+    background: #ce0e2e;
     border:solid white 1pt;
 
 }
